@@ -4,19 +4,19 @@ import { useState } from "react";
 
 const initialStudentList = [
   {
-    id: "1",
+    id: 1,
     studName: "chandini",
     studGender: "female",
     studDOB: "1992-12-4",
   },
   {
-    id: "2",
+    id: 2,
     studName: "chandini",
     studGender: "female",
     studDOB: "1992-12-4",
   },
   {
-    id: "3",
+    id: 3,
     studName: "chandini",
     studGender: "female",
     studDOB: "1992-12-4",
