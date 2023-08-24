@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "studName": "chandini",
+      "studGender": "female",
+      "studDOB": "1992-12-4"
+    },
+    {
+      "id": 2,
+      "studName": "chandini",
+      "studGender": "female",
+      "studDOB": "1992-12-5"
+    },
+    {
+      "id": 3,
+      "studName": "chandini",
+      "studGender": "female",
+      "studDOB": "1992-12-4"
+    }
+  ]

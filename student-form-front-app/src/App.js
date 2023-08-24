@@ -1,6 +1,7 @@
 import FormComponent from "./components/FormComponent";
 import TableComponent from "./components/TableComponent";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import axios from "axios";
 
 const initialStudentList = [
   {
@@ -25,6 +26,17 @@ const initialStudentList = [
 
 function App() {
   const [studentList, setStudentList] = useState(initialStudentList);
+
+  useEffect(() => {
+    axios
+      .get("http://localhost:3000/students")
+      .then((response) => {
+        setStudentList(response.data);
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  }, []);
 
   return (
     <div className="App">
